@@ -1,0 +1,12 @@
+PROJECT_NAME : integration
+PROJET_NUMBER : 1
+OUTPUT_DIRECTORY :
+INPUT : integration
+FILE_PATTERNS : backg.c background.h collision.c collision.c jouer.c jouer.h main.c menu.c menu.h player.c player.h sauvgarde.c sauvgarde.h sous_menu.c sous_menu.h
+ENERATE_LATEX  = yes
+OUTPUT_LANGUAGE = French
+OPTIMIZE_OUTPUT_FOR_C = yes
+HAVE_DOT : YES
+CALL_GRAPH : YES
+CALLER_GRAPH : YES
+
